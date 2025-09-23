@@ -1,0 +1,142 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+space_mission_chat.db
+
+# Logs and temporary files
+*.log
+chat_logs/
+temp/
+tmp/
+
+# API Keys and secrets
+.env
+.env.local
+secrets.toml
+
+# Backup files
+*_backup.py
+*_old.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ChromaDB local (if any)
+chroma_db/
+chromadb/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model files
+*.pkl
+*.h5
+*.model
+*.pth
+
+# Data files (keep only essential)
+data/
+rag_ready_data/
+Scraping/
+*.csv
+*.json
+*.jsonl
+*.parquet
+
+# Documentation builds
+docs/_build/
+site/
+
+# Plot files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*_plots/
+
+# Git LFS
+.gitattributes
+
+# Test files
+test_*.py
+*_test.py
+
+# Claude-specific files
+CLAUDE.md
