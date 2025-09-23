@@ -174,7 +174,7 @@ class SpaceMissionChatbot:
                         top_k=5,
                         similarity_threshold=0.35,
                         temperature=0.1,
-                        llm_model="gpt-4o-mini"
+                        llm_model="o3"
                     )
                     st.session_state.initialized = True
                 return True
