@@ -382,7 +382,7 @@ class StreamlitSpaceMissionChatbot:
                     st.session_state.query_engine = SpaceMissionQueryEngine(
                         use_cloud=True,  # Use ChromaDB cloud
                         top_k=5, # Retrieve top 5 documents
-                        similarity_threshold=0.35, # Optimal result
+                        similarity_threshold=0.1, # Lower threshold for more results
                         temperature=0.1, # Optimal result
                         llm_model="o3"
                     )
