@@ -60,7 +60,7 @@ class AuthManager:
         """, unsafe_allow_html=True)
         
         # Title and description
-        st.title("🚀 Space Mission Design Assistant")
+        st.title("Space Mission Design Assistant")
         st.markdown("### Welcome! Please login or create an account")
         
         # Guest access option
@@ -208,7 +208,7 @@ class AuthManager:
         """Render user menu in sidebar"""
         if st.session_state.authenticated:
             st.sidebar.markdown("---")
-            st.sidebar.markdown(f"### 👤 {st.session_state.user['username']}")
+            st.sidebar.markdown(f"### {st.session_state.user['username']}")
             
             if st.session_state.user['id']:  # Not guest
                 # Show user stats

@@ -137,6 +137,3 @@ site/
 # Test files
 test_*.py
 *_test.py
-
-# Claude-specific files
-CLAUDE.md

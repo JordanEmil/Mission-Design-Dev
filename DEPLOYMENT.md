@@ -1,6 +1,6 @@
 # Deployment Guide for Space Mission Design Assistant
 
-## 🚀 Streamlit Cloud Deployment
+## Streamlit Cloud Deployment
 
 ### Prerequisites
 - GitHub account
@@ -52,7 +52,7 @@ DATABASE_URL = "postgresql://username:password@host:port/dbname"
 2. Wait for the app to build and start (usually 2-5 minutes)
 3. Your app will be available at: `https://your-app-name.streamlit.app`
 
-## 🔧 Local Development
+## Local Development
 
 ### Setup
 
@@ -84,7 +84,7 @@ cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 streamlit run streamlit_chatbot.py
 ```
 
-## 📊 Database Options
+## Database Options
 
 ### SQLite (Default)
 - No configuration needed
@@ -102,7 +102,7 @@ streamlit run streamlit_chatbot.py
 - Railway
 - Heroku Postgres
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 1. **Never commit secrets** to version control
 2. **Use strong passwords** for database
@@ -110,7 +110,7 @@ streamlit run streamlit_chatbot.py
 4. **Enable HTTPS** (automatic on Streamlit Cloud)
 5. **Set up monitoring** for usage and errors
 
-## 🎨 Customization
+## Customization
 
 ### Theme
 Edit `.streamlit/config.toml` to customize colors and fonts
@@ -120,7 +120,7 @@ Edit `.streamlit/config.toml` to customize colors and fonts
 - Session timeout: Configure in auth manager
 - Export formats: Add new formats in export function
 
-## 📈 Monitoring
+## Monitoring
 
 ### Streamlit Cloud Dashboard
 - View app analytics
@@ -138,7 +138,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 ```
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -166,25 +166,25 @@ Set in `.streamlit/config.toml`:
 level = "debug"
 ```
 
-## 📱 Mobile Optimization
+## Mobile Optimization
 
 The app is mobile-responsive by default. For better mobile experience:
 - Use collapsible sidebar
 - Optimize message display
 - Test on various screen sizes
 
-## 🚀 Performance Optimization
+## Performance Optimization
 
 1. **Caching**: Use `@st.cache_data` for expensive operations
 2. **Lazy Loading**: Load history on demand
 3. **Connection Pooling**: For database connections
 4. **CDN**: Use for static assets
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Support
+## Support
 
 - GitHub Issues: [Report bugs](https://github.com/JordanEmil/Mission-Design/issues)
 - Documentation: [Wiki](https://github.com/JordanEmil/Mission-Design/wiki)

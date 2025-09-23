@@ -6,7 +6,7 @@ A Retrieval-Augmented Generation (RAG) chatbot for querying historical space mis
 
 - **Interactive Chatbot Interface**: Streamlit-based web interface for easy interaction
 - **Comprehensive Knowledge Base**: Contains data from hundreds of space missions
-- **RAG Architecture**: Combines vector search with LLM generation for accurate, contextual responses
+- **RAG Architecture**: Combines vector search with language model generation for accurate, contextual responses
 - **Source Attribution**: All answers include references to source missions
 - **Optimised Performance**: Fine-tuned retrieval parameters for best results
 
@@ -83,7 +83,7 @@ The chatbot uses optimised parameters determined through extensive evaluation:
 - **Top-K Retrieval**: 5 documents
 - **Similarity Threshold**: 0.5
 - **Temperature**: 0.1
-- **LLM Model**: OpenAI GPT (configurable)
+- **Language Model**: OpenAI GPT (configurable)
 
 ## Building the Knowledge Base
 
@@ -165,5 +165,5 @@ Emil Ares
 ### Performance Tips
 
 - The first query may take longer as the system loads the index
-- For faster responses, consider using a local LLM or adjusting the `top_k` parameter
+- For faster responses, consider adjusting the `top_k` parameter
 - Chat history is automatically saved in the `chat_logs` directory
