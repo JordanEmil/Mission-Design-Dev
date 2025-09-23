@@ -4,6 +4,9 @@ Space Mission RAG Chatbot - Professional Streamlit Interface
 Author: Emil Ares
 """
 
+# SQLite compatibility fix for Streamlit Cloud
+import sqlite_fix
+
 import os
 import json
 from pathlib import Path

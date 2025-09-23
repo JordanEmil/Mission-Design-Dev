@@ -4,6 +4,12 @@ RAG Query Pipeline using LlamaIndex with ChromaDB Cloud support
 Handles query processing, retrieval, and answer generation
 """
 
+# SQLite compatibility fix for Streamlit Cloud
+try:
+    import sqlite_fix
+except ImportError:
+    pass  # sqlite_fix is only needed on Streamlit Cloud
+
 import os
 import json
 import logging

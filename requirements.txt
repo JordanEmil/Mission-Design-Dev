@@ -1,5 +1,6 @@
 # Core dependencies
 streamlit>=1.28.0
+pysqlite3-binary  # Fix for Streamlit Cloud SQLite compatibility
 llama-index>=0.10.0
 llama-index-embeddings-openai>=0.1.0
 llama-index-llms-openai>=0.1.0
