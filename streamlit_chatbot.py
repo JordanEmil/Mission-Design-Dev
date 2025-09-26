@@ -271,10 +271,15 @@ class StreamlitSpaceMissionChatbot:
         
         with col1:
             # Profile picture placeholder
-            if os.path.exists("profile_picture.jpg"):
-                st.image("profile_picture.jpg", width=200)
+            profile_path = Path(__file__).parent / "profile_picture.jpg"
+            if profile_path.exists():
+                st.image(str(profile_path), width=200)
             else:
-                st.info("📷 Add profile_picture.jpg to the project directory")
+                # Try current directory as fallback
+                if os.path.exists("profile_picture.jpg"):
+                    st.image("profile_picture.jpg", width=200)
+                else:
+                    st.info("📷 Add profile_picture.jpg to the project directory")
         
         with col2:
             st.markdown("""
